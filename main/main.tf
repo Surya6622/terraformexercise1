@@ -15,5 +15,5 @@ module "service_plan"{
 }
 module "function_app" {
     source = "../module/functionapp"
-    depends_on = [module.service_plan]
+    depends_on = [module.service_plane]
 }
